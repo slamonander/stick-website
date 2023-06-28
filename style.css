@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+    background-color: black;
+}
+
+/* Navigation Bar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .7s ease;
+}
+.navbar ul li a:hover{
+    color: #f22521;
+}
+
+/* Home */
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 1px white;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Headers */
+#headings{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: white;
+}
+#headings2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+/* Stick Figure at Homepage*/
+.stick {
+    float: left;
+    margin: 100px 15px 15px 0px;
+
+}
+
+/* About */
+.about{
+    padding: 20rem 20rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
